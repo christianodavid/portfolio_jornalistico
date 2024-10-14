@@ -7,6 +7,7 @@ import AudiovisualsSection from "@/components/pages/home/AudiovisualsSection";
 import PhotographySection from "@/components/pages/home/PhotographySection";
 import MagazineSection from "@/components/pages/home/MagazineSection";
 import ContactSection from "@/components/pages/home/ContactSection";
+import Footer from "@/components/pages/home/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         <MagazineSection />
         <ContactSection />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
