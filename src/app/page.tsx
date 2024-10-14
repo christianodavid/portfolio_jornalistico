@@ -8,10 +8,14 @@ import PhotographySection from "@/components/pages/home/PhotographySection";
 import MagazineSection from "@/components/pages/home/MagazineSection";
 import ContactSection from "@/components/pages/home/ContactSection";
 import Footer from "@/components/pages/home/Footer";
+import Navbar from "@/components/pages/home/Navbar";
 
 export default function Home() {
   return (
     <>
+      <header>
+        <Navbar />
+      </header>
       <main>
         <HeroSection />
         <AboutSection />
