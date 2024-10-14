@@ -5,6 +5,7 @@ import TextsSection from "@/components/pages/home/TextsSection";
 import VideomakerSection from "@/components/pages/home/VideomakerSection";
 import AudiovisualsSection from "@/components/pages/home/AudiovisualsSection";
 import PhotographySection from "@/components/pages/home/PhotographySection";
+import MagazineSection from "@/components/pages/home/MagazineSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <VideomakerSection />
         <AudiovisualsSection />
         <PhotographySection />
+        <MagazineSection />t
       </main>
     </>
   );
