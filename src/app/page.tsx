@@ -3,6 +3,7 @@ import AboutSection from "@/components/pages/home/AboutSection";
 import ExperienceSection from "@/components/pages/home/ExperienceSection";
 import TextsSection from "@/components/pages/home/TextsSection";
 import VideomakerSection from "@/components/pages/home/VideomakerSection";
+import AudiovisualsSection from "@/components/pages/home/AudiovisualsSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ExperienceSection />
         <TextsSection />
         <VideomakerSection />
+        <AudiovisualsSection />
       </main>
     </>
   );
